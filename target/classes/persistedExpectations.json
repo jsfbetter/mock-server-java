@@ -1,0 +1,156 @@
+[ {
+  "id" : "test_mock_500",
+  "priority" : 10,
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/mock/500"
+  },
+  "times" : {
+    "unlimited" : true
+  },
+  "timeToLive" : {
+    "unlimited" : true
+  },
+  "httpResponse" : {
+    "body" : {
+      "type" : "JSON",
+      "json" : {
+        "code" : 500,
+        "result" : "500 error!"
+      }
+    }
+  }
+} ,{
+  "id" : "test_mock_501",
+  "priority" : 10,
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/mock/501"
+  },
+  "times" : {
+    "unlimited" : true
+  },
+  "timeToLive" : {
+    "unlimited" : true
+  },
+  "httpResponse" : {
+    "body" : {
+      "type" : "JSON",
+      "json" : {
+        "code" : 501,
+        "result" : "501 error!"
+      }
+    }
+  }
+} ,{
+  "id" : "test_mock_502",
+  "priority" : 10,
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/mock/502"
+  },
+  "times" : {
+    "unlimited" : true
+  },
+  "timeToLive" : {
+    "unlimited" : true
+  },
+  "httpResponse" : {
+    "body" : {
+      "type" : "JSON",
+      "json" : {
+        "code" : 502,
+        "result" : "502 error!"
+      }
+    }
+  }
+} ,{
+  "id" : "test_mock_503",
+  "priority" : 10,
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/mock/503"
+  },
+  "times" : {
+    "unlimited" : true
+  },
+  "timeToLive" : {
+    "unlimited" : true
+  },
+  "httpResponse" : {
+    "body" : {
+      "type" : "JSON",
+      "json" : {
+        "code" : 503,
+        "result" : "503 error!"
+      }
+    }
+  }
+} ,
+  {
+    "id" : "test_mock_504",
+    "priority" : 10,
+    "httpRequest" : {
+      "method" : "GET",
+      "path" : "/mock/504"
+    },
+    "times" : {
+      "unlimited" : true
+    },
+    "timeToLive" : {
+      "unlimited" : true
+    },
+    "httpResponse" : {
+      "body" : {
+        "type" : "JSON",
+        "json" : {
+          "code" : 504,
+          "result" : "504 error!"
+        }
+      }
+    }
+  },{
+  "id" : "test_mock_404",
+  "priority" : 10,
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/mock/404"
+  },
+  "times" : {
+    "unlimited" : true
+  },
+  "timeToLive" : {
+    "unlimited" : true
+  },
+  "httpResponse" : {
+    "body" : {
+      "type" : "JSON",
+      "json" : {
+        "code" : 404,
+        "result" : "404 error!"
+      }
+    }
+  }
+},{
+  "id" : "test_mock_403",
+  "priority" : 10,
+  "httpRequest" : {
+    "method" : "GET",
+    "path" : "/mock/403"
+  },
+  "times" : {
+    "unlimited" : true
+  },
+  "timeToLive" : {
+    "unlimited" : true
+  },
+  "httpResponse" : {
+    "body" : {
+      "type" : "JSON",
+      "json" : {
+        "code" : 403,
+        "result" : "403 error!"
+      }
+    }
+  }
+}]
